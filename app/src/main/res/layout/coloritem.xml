@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_width="75dp"
+    android:layout_height="@dimen/itemheight">
+    <TextView
+        android:layout_width="@dimen/itemheight"
+        android:layout_height="@dimen/itemheight"
+        android:background="@color/colorAccent"
+        android:id="@+id/coloritem"/>
+    <ImageView
+        android:visibility="gone"
+        android:src="@drawable/ic_check"
+        android:tint="@color/colorWhite"
+        android:layout_width="@dimen/itemheight"
+        android:layout_height="@dimen/itemheight"
+        android:id="@+id/checkcolor"/>
+</RelativeLayout>
